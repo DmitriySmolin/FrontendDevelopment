@@ -8,6 +8,25 @@ body {
 	left: 15px;
 }
 
+h2 {
+	text-align: center;
+	margin: 0;
+}
 
+.wrap-list {
+	display: inline-block;
+	margin: 5px 0px 0px 12px;
+	border: 1px solid black;
+	width: 283px;
+	height: 200px;
+	position: relative;
+	left: 134px;
+}
 
-
+.wrap-list li {
+	position: relative;
+	top: 24px;
+	right: 15px;
+	list-style-type: none;
+	border: 1px solid black;
+	text-align: center;

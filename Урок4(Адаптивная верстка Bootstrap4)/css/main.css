@@ -1,0 +1,180 @@
+body {
+font-family: 'PT Sans', sans-serif;
+}
+ul,
+li {
+display: block;
+padding: 0;
+margin: 0;
+}
+h1,
+h2,
+h3,
+h4 {
+font-weight: 700;
+color: #000;
+}
+h3 {
+font-weight: 400;
+}
+h2 {
+text-align: center;
+}
+img {
+cursor: pointer;
+width: 100%;
+border-radius: 25px;
+}
+.yellow {
+color: #fcdb00;
+}
+.header {
+color: #010101;
+background-color: #fcdb00;
+padding-top: 1px;
+padding-bottom: 105px;
+box-shadow: 13px 0px 13px 0px;
+}
+.menu__list {
+margin-top: 10px;
+}
+.menu-item {
+margin: 0 5px;
+}
+.menu-item a {
+font-size: 22px;
+font-weight: 700;
+color: #000;
+}
+.subtitle__head {
+font-size: 32px;
+margin-bottom: 15px;
+}
+.subtitle__text {
+font-size: 16px;
+margin-top: 15px;
+width: 400px;
+}
+.icons__item a {
+color: #000;
+font-size: 42px;
+transition: all 0.3s ease;
+}
+.icons__item {
+margin-right: 30px;
+}
+.icons__item a:hover {
+text-decoration: none;
+color: #ff4800;
+}
+.logo {
+display: flex;
+width: 100%;
+box-shadow: 0px 0px 13px 0px;
+}
+.content-text {
+margin-top: 12px;
+margin-left: 12px;
+}
+.content-text:hover {
+cursor: pointer;
+text-decoration: underline;
+}
+.title {
+padding-top: 100px;
+padding-bottom: 70px;
+text-align: center;
+}
+.title-main {
+font-size: 32px;
+}
+.title-text {
+font-size: 20px;
+width: auto;
+margin: 0 auto;
+}
+.feature {
+margin-bottom: 65px;
+margin-right: 25px;
+}
+.feature__icon {
+font-size: 50px;
+margin-right: 37px;
+color: #000;
+}
+.feature__text {
+color: #898989;
+}
+.feature__block {
+border: 1px solid black;
+border-radius: 25px;
+}
+.feature__block:hover {
+box-shadow: 0px 0px 13px 0px;
+border-color: #fcdb00;
+}
+.footer {
+box-shadow: 0px 0px 13px 0px;
+background-color: #fcdb00;
+padding: 8px 0px 10px 5px;
+}
+.footer-text {
+color: #212529;
+font-size: 16px;
+text-align: center;
+margin: 0 auto;
+}
+@media screen and (max-width:992px) {
+.logo {
+display: block;
+margin: 0 auto;
+margin-bottom: 30px;
+}
+h1 {
+text-align: center;
+}
+.subtitle {
+text-align: center;
+}
+.subtitle__text {
+text-align: center;
+margin: 20px auto;
+width: auto;
+}
+}
+@media screen and (max-width:576px) {
+.logo {
+width: 100%;
+}
+.menu__list {
+flex-direction: column;
+}
+.menu-item {
+text-align: center;
+margin-bottom: 10px;
+}
+.subtitle__head {
+font-size: 24px;
+}
+.footer {
+padding: 0px;
+}
+}
+@media screen and (min-width:577px) {
+.menu-item {
+margin: 0 5px;
+position: relative;
+left: 75px;
+}
+@media screen and (min-width:776px) {
+.menu-item {
+margin: 0 5px;
+position: relative;
+left: 165px;
+}
+@media screen and (min-width:992px) {
+.menu-item {
+margin: 0 5px;
+position: relative;
+left: 10px;
+}

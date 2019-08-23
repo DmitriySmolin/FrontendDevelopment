@@ -3,7 +3,7 @@ import React, { Component } from 'react';
 import './Navigation.css';
 class Navigation extends Component {
     render() {    
-    	const sections = ['Главная','Обо мне','Услуги','Портфолио','Контакты'];
+    	const sections = ['Главная','О себе','Услуги','Портфолио','Контакты'];
     	const navLinks = sections.map(section => {
     		return(
     			<li><a href={'#' + section}>{section}</a></li>

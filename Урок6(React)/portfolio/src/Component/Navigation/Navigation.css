@@ -19,9 +19,26 @@ ul {
 nav ul li {
     display: inline-block;
     margin-right: 8px;
+    text-transform: uppercase;
+    font-weight: 700;
 }
 
 nav ul li a {
     text-decoration: none;
     color: #fff;
+}
+
+
+nav ul li a:hover:after {
+    background: #fff;
+    width: 100%;
+}
+
+nav ul li a:after {
+    content: '';
+    height: 3px;
+    transition: width .5s ease, background-color .5s ease;
+    display: block;
+    width: 100%;
+    margin: 10px auto auto;
 }

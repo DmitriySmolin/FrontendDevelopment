@@ -42,3 +42,165 @@ nav ul li a:after {
     width: 100%;
     margin: 10px auto auto;
 }
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    background-color: #1d809f;
+    align-items: center;
+    padding-right: 20px;
+    padding-left: 20px;
+}
+
+.logo {
+    font-size: 30px;
+    color: #fff;
+}
+
+ul {
+    list-style: none;
+}
+
+nav ul li {
+    display: inline-block;
+    margin-right: 8px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #fff;
+}
+
+.navbar{
+  padding: 0.5rem 1rem;
+  display: grid;
+  grid-template-columns: auto 1fr;
+  transition: all .5s ease-out;
+  position: fixed;
+  width: 100% !important;
+  left:0;
+  top:0;
+}
+
+.navbar button {
+  background-color: transparent;
+  border: none;
+  transition: all .5s ease-out;
+  padding: 5px;
+}
+.navbar button:hover {
+  background-color: #1D81F5;
+  border-radius: 7px;
+}
+
+
+
+.nav-link{
+  color: gray;
+  text-transform: capitalize;
+  text-decoration: none;
+  font-size: 1.2rem;
+  transition: all 0.3s linear;
+}
+.nav-links{
+        display: flex;
+    justify-content: flex-end;
+    background-color: #1d809f;
+    align-items: center;
+    padding-right: 20px;
+    padding-left: 20px;
+}
+
+.nav-links a:hover{
+  color: #1D81F5
+}
+.active{
+  color: #6ab04a;
+}
+
+@import url('https://fonts.googleapis.com/css?family=Lobster');
+@import url('https://fonts.googleapis.com/css?family=Open+Sans');
+
+@keyframes appear {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+@keyframes slideIn {
+  0% {
+    transform: translateX(-2%);
+  }
+  100% {
+    transform: translateX(0);
+  }
+}
+
+@keyframes shrink {
+  0% {
+    width: 95%;
+  }
+  100% {
+    width: 90%;
+  }
+}
+
+
+/*sds*/
+
+.side-nav{
+  height:100%;
+  width:0;
+  position:fixed;
+  z-index:1;
+  top:0;
+  left:0;
+  background-color:#111;
+  opacity:0.9;
+  overflow-x:hidden;
+  padding-top:60px;
+  transition:0.5s;
+}
+
+.side-nav a{
+  padding:10px 10px 10px 30px;
+  text-decoration:none;
+  font-size:22px;
+  color:#ccc;
+  display:block;
+  transition:0.3s;
+}
+
+.side-nav a:hover{
+  color:#1D81F5;
+}
+
+.side-nav .btn-close{
+  position:absolute;
+  top:0;
+  right:22px;
+  font-size:36px;
+  margin-left:50px;
+}
+
+.open-slide path:hover {
+  color:#6ab04a;
+}
+
+#main{
+  transition:margin-left 0.5s;
+  padding:20px;
+  overflow:hidden;
+  width:100%;
+}
+
+@media(max-width:568px){
+  .nav-links{display:none}
+}
+
+@media(min-width:568px){
+  /*.open-slide{display:none}*/
+}

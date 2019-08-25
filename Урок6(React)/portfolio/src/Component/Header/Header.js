@@ -18,13 +18,13 @@ class Header extends Component {
 		return(
 			       <header  id="home" className="container-fluent">
                 <div className="row">
-                    <div  style={myStyles} >
+                    <div style={myStyles}>
                         <div className="col-12 mx-auto">
-                            <h1>{this.props.title}</h1>
-                            <p>Frontend developer</p>
-                            <a href="#button">{this.props.button}</a>
+                            <h1 className="text1">{this.props.title}</h1>
+                            <p className="text2">Frontend developer</p>
+                            <div><a className="text3" href="#button">{this.props.button}</a></div>
                         </div>
-                    </div>
+                        </div>
                 </div>
                 <div className="overlay"></div>
                 <div className="row justify-content-center">

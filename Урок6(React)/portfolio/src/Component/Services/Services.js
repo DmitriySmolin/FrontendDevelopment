@@ -12,6 +12,7 @@ class Services extends Component {
 					<Icons icon={iconObj[2].icon} title={iconObj[2].title} description={iconObj[2].description}/>
 					<Icons icon={iconObj[3].icon} title={iconObj[3].title} description={iconObj[3].description}/>
 				</div>
+				 <div className="overlay-services"></div>
 			</div>
 			</section>
         );

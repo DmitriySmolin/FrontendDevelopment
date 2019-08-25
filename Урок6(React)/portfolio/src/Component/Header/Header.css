@@ -1,39 +1,87 @@
 header h1 {
-	margin: 0;
-	font-size: 3rem;
-	color: #fff;
+    margin: 0;
+    color: #fff;
 }
 
 header p {
-	font-weight: 700;
-	color: #fff;
-	font-size: 1.75rem;
-	margin-bottom: 30px;
+    font-weight: 700;
+    color: #fff;
+    font-size: 1.75rem;
+    margin-bottom: 30px;
 }
 
 header a {
-	box-shadow: 0 3px 3px 0 rgba(0, 0, 0, .1);
-	font-weight: 700;
-	background-color: #212529;
-	color: #fff;
-	padding: 1.25rem 2.5rem;
-	text-decoration: none;
-	border-radius: .25rem;
-	display: inline-block;
+    box-shadow: 0 3px 3px 0 rgba(0, 0, 0, .1);
+    font-weight: 700;
+    background-color: #212529;
+    color: #fff;
+    padding: 1.5rem 2.5rem;
+    text-decoration: none;
+    border-radius: .25rem;
+    display: inline-block;
+    text-transform: uppercase;
 }
 
-/*.overlay {
-	position: absolute;
-	width: 100%;
-	height: 140px;
-	bottom: 42px;
-	opacity: .5;
-background: linear-gradient(30deg, #1d809f 12%, transparent 12.5%, transparent 87%, #1D81F5 87.5%, #1d809f 0), linear-gradient(150deg, #1d809f 12%, transparent 12.5%, transparent 87%, #1D81F5 87.5%, #1d809f 0), linear-gradient(30deg, #1d809f 12%, transparent 12.5%, transparent 87%, #1D81F5 87.5%, #1d809f 0), linear-gradient(150deg, #1d809f 12%, transparent 12.5%, transparent 87%, #1D81F5 87.5%, #1d809f 0), linear-gradient(60deg, #1d869f 25%, transparent 25.5%, transparent 75%, #1D81F5 75%,#1d869f 0), linear-gradient(60deg, #1d869f 25%, transparent 25.5%, transparent 75%, #1D81F5 75%, #1d869f 0), #1d739c;
-	background-position: 0 0, 0 0, 40px 70px, 40px 70px, 0 0, 40px 70px;
-	background-size: 80px 140px;
-}*/
+.overlay {
+    position: absolute;
+    width: 100%;
+    height: 140px;
+    transform: translate(0, -143px);
+    opacity: .5;
+    background: linear-gradient(30deg, #1d809f 12%, transparent 12.5%, transparent 87%, #1D81F5 87.5%, #1d809f 0), linear-gradient(150deg, #1d809f 12%, transparent 12.5%, transparent 87%, #1D81F5 87.5%, #1d809f 0), linear-gradient(30deg, #1d809f 12%, transparent 12.5%, transparent 87%, #1D81F5 87.5%, #1d809f 0), linear-gradient(150deg, #1d809f 12%, transparent 12.5%, transparent 87%, #1D81F5 87.5%, #1d809f 0), linear-gradient(60deg, #1d869f 25%, transparent 25.5%, transparent 75%, #1D81F5 75%, #1d869f 0), linear-gradient(60deg, #1d869f 25%, transparent 25.5%, transparent 75%, #1D81F5 75%, #1d869f 0), #1d739c;
+    background-position: 0 0, 0 0, 40px 70px, 40px 70px, 0 0, 40px 70px;
+    background-size: 80px 140px;
+}
 
 
+.text1 {
+    margin-bottom: 20px;
+    position: relative;
+    animation: text 5s 1;
+    color: white;
+    background-color: rgb(29, 128, 159);
+}
+
+.text2 {
+    transition: all 3s linear;
+    animation: text22 3s 1;
+}
+
+.text3 {
+    margin: 0;
+    padding-top: 0;
+    height: 10px;
+}
+
+
+@keyframes text22 {
+    0% {
+        margin-bottom: -30px;
+    }
+
+    70% {
+        margin-bottom: -30px;
+    }
+
+}
+
+@keyframes text {
+    0% {
+        color: black;
+        margin-bottom: -40px;
+    }
+
+    30% {
+        letter-spacing: 25px;
+        margin-bottom: -40px;
+    }
+
+    70% {
+        letter-spacing: 3px;
+        margin-bottom: -40px;
+    }
+
+}
 
 .downArrow {
     left: 50%;
@@ -42,9 +90,16 @@ background: linear-gradient(30deg, #1d809f 12%, transparent 12.5%, transparent 8
     position: absolute;
     cursor: pointer;
     transition: all 3s linear;
-    color: #ffffff;
-    margin-bottom: 60px;
+    color: #fff;
+    margin-bottom: 188px;
+    padding: 1.25rem 2.5rem;
 }
-.downArrow i:hover{
-    color: #6ab04a;
+
+.downArrow i:hover {
+    color: #1D81F5 !important;
+}
+
+.fa,
+.fas {
+    color: white !important;
 }

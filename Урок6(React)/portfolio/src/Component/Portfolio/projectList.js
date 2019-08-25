@@ -13,7 +13,7 @@ const descriptionProjects = [
     },
     {
         title: 'Сайт портфолио на React',
-        description: 'Однострачничный сайт портфолио разработанный на React',
+        description: 'Однострачничный сайт-портфолио разработанный на React',
         icon: 'fab fa-react',
         link: 'https://github.com/DmitriySmolin/FrontedDevelopment/tree/master/%D0%A3%D1%80%D0%BE%D0%BA6(React)/portfolio'
     }];

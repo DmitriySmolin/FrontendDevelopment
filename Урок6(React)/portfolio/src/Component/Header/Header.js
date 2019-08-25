@@ -5,23 +5,41 @@ import './Header.css';
 	const myStyles = {
 		// backgroundImage: `url(${Background})`,
 		backgroundColor : '#1d809f',
-		height: '50vh',
-		backgroundSize: 'cover'
+	    height: '100vh',
+    	width: '100%',
+    	display: 'flex',
+    	alignItems: 'center',
+    	textAlign: 'center'
 	}
 
 class Header extends Component {
 
 	render(){
 		return(
-			<header style={myStyles}>
-			<img src="images/profile.jpg"  alt="profile picture"/>
-			<h1>{this.props.title}</h1>
-			<p>Frontend developer</p>
-			<a href="#button">{this.props.button}</a>
-			<div className="overlay"></div>
-			</header>
+			       <header  id="home" className="container-fluent">
+                <div className="row">
+                    <div  style={myStyles} >
+                        <div className="col-12 mx-auto">
+                            <h1>{this.props.title}</h1>
+                            <p>Frontend developer</p>
+                            <a href="#button">{this.props.button}</a>
+                        </div>
+                    </div>
+                </div>
+                <div className="overlay"></div>
+                <div className="row justify-content-center">
+                    <div className="col-12">
+                        <a href="#about" className="downArrow">
+                            <i className="fas fa-angle-double-down fa-2x"/>
+                        </a>
+                    </div>
+                </div>
+            </header>
+
+
 			)
 	}
 };
 
 export default Header;
+

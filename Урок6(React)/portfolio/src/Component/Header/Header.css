@@ -1,9 +1,3 @@
-header {
-	margin: 0 auto;
-	text-align: center;
-	padding-top: 300px
-}
-
 header h1 {
 	margin: 0;
 	font-size: 3rem;
@@ -28,13 +22,30 @@ header a {
 	display: inline-block;
 }
 
-.overlay {
+/*.overlay {
 	position: absolute;
 	width: 100%;
 	height: 140px;
 	bottom: 42px;
-	/*opacity: .5;*/
-	background: linear-gradient(30deg, #1d809f 12%, transparent 12.5%, transparent 87%, #1D81F5 87.5%, #1d809f 0), linear-gradient(150deg, #1d809f 12%, transparent 12.5%, transparent 87%, #1D81F5 87.5%, #1d809f 0), linear-gradient(30deg, #1d809f 12%, transparent 12.5%, transparent 87%, #1D81F5 87.5%, #1d809f 0), linear-gradient(150deg, #1d809f 12%, transparent 12.5%, transparent 87%, #1D81F5 87.5%, #1d809f 0), linear-gradient(60deg, #1d869f 25%, transparent 25.5%, transparent 75%, #1D81F5 75%,#1d869f 0), linear-gradient(60deg, #1d869f 25%, transparent 25.5%, transparent 75%, #1D81F5 75%, #1d869f 0), #1d739c;
+	opacity: .5;
+background: linear-gradient(30deg, #1d809f 12%, transparent 12.5%, transparent 87%, #1D81F5 87.5%, #1d809f 0), linear-gradient(150deg, #1d809f 12%, transparent 12.5%, transparent 87%, #1D81F5 87.5%, #1d809f 0), linear-gradient(30deg, #1d809f 12%, transparent 12.5%, transparent 87%, #1D81F5 87.5%, #1d809f 0), linear-gradient(150deg, #1d809f 12%, transparent 12.5%, transparent 87%, #1D81F5 87.5%, #1d809f 0), linear-gradient(60deg, #1d869f 25%, transparent 25.5%, transparent 75%, #1D81F5 75%,#1d869f 0), linear-gradient(60deg, #1d869f 25%, transparent 25.5%, transparent 75%, #1D81F5 75%, #1d869f 0), #1d739c;
 	background-position: 0 0, 0 0, 40px 70px, 40px 70px, 0 0, 40px 70px;
 	background-size: 80px 140px;
+}*/
+
+
+
+.downArrow {
+    left: 50%;
+    bottom: 90%;
+    transform: translateX(-50%);
+    z-index: 1000;
+    position: absolute;
+    cursor: pointer;
+    transition: all 3s linear;
+    color: #ffffff;
+    margin-bottom: 60px;
+}
+.downArrow i:hover{
+    color: #6ab04a;
 }

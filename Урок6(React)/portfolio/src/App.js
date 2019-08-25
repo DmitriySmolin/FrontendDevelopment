@@ -3,6 +3,7 @@ import './App.css';
 import Navigation from'./Component/Navigation/Navigation'
 import Header from './Component/Header/Header'
 import About from './Component/About/About'
+import Services from './Component/Services/Services'
 class App extends Component {
 
 	render(){
@@ -14,6 +15,7 @@ class App extends Component {
 				<Navigation LogoTitle="Портфолио"/>
 				<Header title="Дмитрий Смолин" button="Узнать больше"/>
 				<About/>
+				<Services/>
 				</div>
 			</div>
 			</div>

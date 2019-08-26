@@ -227,3 +227,9 @@ ul {
 @media(min-width:568px) {
     /*.open-slide{display:none}*/
 }
+
+@media (max-width: 577px){
+    .nav-links  {
+       display:none;
+    }
+}

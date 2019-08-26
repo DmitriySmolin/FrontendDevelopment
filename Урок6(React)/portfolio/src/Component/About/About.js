@@ -27,6 +27,7 @@ class About extends Component {
                     <div className="col-10 mx-auto col-md-6 my-5 mx-5">
                         <div className="information">
                             <h2><i className="fa fa-building"></i> Опыт работы</h2>
+                            <p>Без  опыта</p>
                         </div>
                     </div>
                 </div>

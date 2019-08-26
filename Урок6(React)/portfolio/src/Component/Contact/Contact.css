@@ -102,7 +102,7 @@ span {
 .skype {
     color: white;
     font-size: 30px;
-    transform: translateX(-42px);
+    transform: translateX(-45px);
 }
 
 .upArrow {
@@ -120,6 +120,18 @@ span {
     color: #1D81F5 !important;
 }
 
+.fa-phone-square {
+    margin-left: -17px;
+}
+
+.fa-envelope {
+    margin-left: -4px;
+}
+
+ion-icon {
+    font-size: 34px;
+}
+
 @media (min-width: 320px) and (max-width: 767px) {
     .skype {
         color: white;
@@ -132,22 +144,6 @@ span {
         color: #ffffff;
         font-size: 24px;
         margin: 30px 30px;
-    }
-
-}
-
-@media (min-width: 606px) and (max-width: 982px) {
-
-    .myEmail,
-    .myTel {
-        font-size: 19px;
-        margin: 30px 57px;
-
-    }
-
-    .skype {
-        font-size: 19px;
-        transform: translateX(-35px);
     }
 
 }
@@ -167,13 +163,17 @@ span {
     .myEmail,
     .myTel {
         font-size: 19px;
-        margin: 30px 57px;
+        margin: 30px 30px;
 
     }
 
     .skype {
         font-size: 19px;
-        transform: translateX(-35px);
+        transform: translateX(-30px);
+    }
+
+    ion-icon{
+        font-size: 27px;
     }
 
 }

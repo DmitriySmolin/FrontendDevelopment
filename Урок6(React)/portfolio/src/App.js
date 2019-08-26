@@ -6,6 +6,7 @@ import About from './Component/About/About'
 import Services from './Component/Services/Services'
 import Portfolio from './Component/Portfolio/Portfolio';
 import Contact from './Component/Contact/Contact';
+import Footer from './Component/Footer/Footer';
 class App extends Component {
 
 	render(){
@@ -20,6 +21,7 @@ class App extends Component {
 				<Services/>
 				<Portfolio/>
 				<Contact/>
+				<Footer footer={'© Copyright 2019 React Portfolio by Dmitry Smolin'}/>
 				</div>
 			</div>
 			</div>

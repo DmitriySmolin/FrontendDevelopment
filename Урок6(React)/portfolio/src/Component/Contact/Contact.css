@@ -5,12 +5,12 @@
 
 .contactMe {
     color: #fff;
-    font-size: 60px;
+    font-size: 40px;
     margin: 60px 30px;
     font-family: 'Roboto Slab', serif;
 }
 
-.myEmail {
+.myTel,.myEmail {
     color: #ffffff;
     font-size: 30px;
     margin: 30px 80px;
@@ -99,3 +99,39 @@ span {
     font-size:30px;
     transform: translateX(-42px);
 }
+
+@media (min-width: 320px) and (max-width: 767px) {
+.skype {
+    color: white;
+    font-size: 24px;
+    transform: translateX(-35px);
+}
+.myEmail {
+    color: #ffffff;
+    font-size: 24px;
+    margin: 30px 30px;
+}
+
+  }
+
+  @media (min-width: 606px) and (max-width: 982px) {
+.myEmail {
+    font-size: 19px;
+    margin: 30px 57px;
+
+}
+.skype {
+    font-size: 19px;
+    transform: translateX(-35px);
+}
+
+  }
+
+    @media (min-width: 615px) and (max-width: 664px) {
+.myEmail {
+    font-size: 19px;
+     margin: 30px 43px;
+}
+  }
+
+     

@@ -7,6 +7,7 @@ class ProjectsList extends Component {
 
     render() {
         return (
+            <section className="projects">
             <div id="projects" className='container-fluent backgroundProjects'>
                 <div className='row py-4'>
                     {descriptionProjects.map(descriptionProject => 
@@ -14,9 +15,9 @@ class ProjectsList extends Component {
                     description={descriptionProject.description}
                     icon={descriptionProject.icon}
                     link={descriptionProject.link}/>)}
-
                 </div>
             </div>
+            </section>
         );
     }
 }

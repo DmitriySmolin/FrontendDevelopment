@@ -10,7 +10,7 @@ class Contact extends Component {
                 <div className="row">
                     <div className="col text-center">
                         <h4 className="contactMe">Контакты</h4>
-                        <h3 className="myEmail"><i className="fa fa-phone-square" aria-hidden="true"/> +7-912-855-37-67</h3>
+                        <h3 className="myTel"><i className="fa fa-phone-square" aria-hidden="true"/> +7-912-855-37-67</h3>
                         <h3 className="myEmail"><i className="fa fa-envelope" aria-hidden="true"/> neox56@gmail.com</h3>
                         <h3 className="skype"><ion-icon name="logo-skype"/> crazyonyx216</h3>
                         
@@ -18,7 +18,7 @@ class Contact extends Component {
                     <div className="col text-center">
                         <div className="githubIcon">
                             <a className="btn btn-outline btn-xl emailButton"
-                               href="https://github.com/DmitriySmolin" target="_blank">Dmitriy Smolin</a>
+                               href="https://github.com/DmitriySmolin" target="_blank">Dmitry Smolin</a>
                             <a href="https://github.com/DmitriySmolin"><i className="fab fa-github"/></a>
                         </div>
                     </div>

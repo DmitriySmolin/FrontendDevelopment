@@ -5,7 +5,6 @@ class Services extends Component {
         return (
         	<section id="services">
             <div className="services">
-				<h2>Чем я занимаюсь</h2>
 				<div className="row">
 					<Icons icon={iconObj[0].icon} title={iconObj[0].title} description={iconObj[0].description}/>
 					<Icons icon={iconObj[1].icon} title={iconObj[1].title} description={iconObj[1].description}/>

@@ -7,8 +7,9 @@ class ProjectsList extends Component {
 
     render() {
         return (
-            <section className="projects">
+            <section id="Портфолио" className="projects">
             <div id="projects" className='container-fluent backgroundProjects'>
+            <h2>Портфолио</h2>
                 <div className='row py-4'>
                     {descriptionProjects.map(descriptionProject => 
                     <MyProject title={descriptionProject.title}

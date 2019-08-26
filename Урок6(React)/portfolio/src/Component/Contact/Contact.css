@@ -10,7 +10,8 @@
     font-family: 'Roboto Slab', serif;
 }
 
-.myTel,.myEmail {
+.myTel,
+.myEmail {
     color: #ffffff;
     font-size: 30px;
     margin: 30px 80px;
@@ -31,31 +32,35 @@
     color: black;
 
 }
-.btn:hover{
+
+.btn:hover {
     color: #007bff !important;
 }
+
 .githubIcon {
     display: flex;
     text-align: center;
     margin-top: 100px;
 }
 
-.githubIcon i{
+.githubIcon i {
     color: white;
     font-size: 5em;
     transition: all 0.5s ease;
 }
 
-.githubIcon i:hover{
+.githubIcon i:hover {
     color: #007bff;
 }
+
 span {
     color: #ffffff;
 }
 
 
-.social-networks,.spin-icon{
- display: -ms-flexbox;
+.social-networks,
+.spin-icon {
+    display: -ms-flexbox;
     display: -webkit-flex;
     display: flex;
     -webkit-flex-direction: row;
@@ -73,7 +78,7 @@ span {
     -webkit-align-items: center;
     -ms-flex-align: center;
     align-items: center;
-    transform: translate(0px, 81px);
+    transform: translate(-23px, 81px);
 }
 
 
@@ -90,48 +95,91 @@ span {
     font-size: 3rem;
 }
 
-.social-networks a:hover{
-   color:  #007bff;
+.social-networks a:hover {
+    color: #007bff;
 }
 
-.skype{
+.skype {
     color: white;
-    font-size:30px;
+    font-size: 30px;
     transform: translateX(-42px);
 }
 
+.upArrow {
+    left: 50%;
+    bottom: 70%;
+    transform: translateX(-50%);
+    position: absolute;
+    cursor: pointer;
+    color: #fff;
+    margin-bottom: -59px;
+    padding: 1.25rem 2.5rem;
+}
+
+.upArrow i:hover {
+    color: #1D81F5 !important;
+}
+
 @media (min-width: 320px) and (max-width: 767px) {
-.skype {
-    color: white;
-    font-size: 24px;
-    transform: translateX(-35px);
-}
-.myEmail {
-    color: #ffffff;
-    font-size: 24px;
-    margin: 30px 30px;
-}
+    .skype {
+        color: white;
+        font-size: 24px;
+        transform: translateX(-35px);
+    }
 
-  }
-
-  @media (min-width: 606px) and (max-width: 982px) {
-.myEmail {
-    font-size: 19px;
-    margin: 30px 57px;
+    .myEmail,
+    .myTel {
+        color: #ffffff;
+        font-size: 24px;
+        margin: 30px 30px;
+    }
 
 }
-.skype {
-    font-size: 19px;
-    transform: translateX(-35px);
+
+@media (min-width: 606px) and (max-width: 982px) {
+
+    .myEmail,
+    .myTel {
+        font-size: 19px;
+        margin: 30px 57px;
+
+    }
+
+    .skype {
+        font-size: 19px;
+        transform: translateX(-35px);
+    }
+
 }
 
-  }
+@media (min-width: 615px) and (max-width: 664px) {
 
-    @media (min-width: 615px) and (max-width: 664px) {
-.myEmail {
-    font-size: 19px;
-     margin: 30px 43px;
+    .myEmail,
+    .myTel {
+        font-size: 19px;
+        margin: 30px 43px;
+    }
 }
-  }
 
-     
+
+@media (min-width: 606px) and (max-width: 982px) {
+
+    .myEmail,
+    .myTel {
+        font-size: 19px;
+        margin: 30px 57px;
+
+    }
+
+    .skype {
+        font-size: 19px;
+        transform: translateX(-35px);
+    }
+
+}
+
+@media (min-width: 368px) and (max-width: 461px) {
+    .social-networks a {
+        width: 56px;
+    }
+}

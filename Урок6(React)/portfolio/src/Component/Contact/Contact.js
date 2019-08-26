@@ -5,7 +5,7 @@ import './Contact.css'
 class Contact extends Component {
     render() {
         return (
-            <section className="contact">
+            <section id="Контакты" className="contact">
             <div id="contact" className="container-fluent backgroundContact">
                 <div className="row">
                     <div className="col text-center">
@@ -24,6 +24,11 @@ class Contact extends Component {
                     </div>
                 </div>
                 <div className="col-sm-12">
+                       <div className="col-12">
+                        <a href="#home" className="upArrow">
+                        <i className="fas fa-angle-double-up fa-2x"/>
+                        </a>
+                 </div>
               <ul className="social-networks spin-icon">
                 <li><a href="https://www.facebook.com/"><ion-icon name="logo-facebook"/></a></li>
                 <li><a href="https://twitter.com/" className="icon-twitter"><ion-icon name="logo-twitter"/></a></li>

@@ -89,10 +89,11 @@ header a {
     transform: translateX(-50%);
     position: absolute;
     cursor: pointer;
-    transition: all 3s linear;
     color: #fff;
     margin-bottom: 188px;
     padding: 1.25rem 2.5rem;
+    box-shadow: none;
+    background-color:rgb(29, 128, 159);
 }
 
 .downArrow i:hover {

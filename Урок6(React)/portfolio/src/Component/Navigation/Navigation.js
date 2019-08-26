@@ -12,8 +12,8 @@ class Navigation extends Component {
     };
 
     render() {
-        const sections = ['Главная','О себе','Услуги','Портфолио','Контакты'];
-        const navLinks = sections.map(section => {
+        const sections = ['Главная','Обо мне','Услуги','Портфолио','Контакты'];
+        const navLinks = sections.map((section) => {
             return (
                 <li><a href={'#' + section}>{section}</a></li>
             )

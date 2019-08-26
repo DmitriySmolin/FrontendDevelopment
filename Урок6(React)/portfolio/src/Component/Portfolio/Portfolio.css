@@ -1,11 +1,18 @@
 .backgroundProjects{
-    background-color: rgba(0, 0, 0, .03);
+    background-color: rgba(0, 0, 0, .1);
 }
 .containerBox {
     display: flex;
     justify-content: center;
 }
 
+#projects h2{
+    font-size: 40px;
+    color: #000;
+    margin-top: 0;
+    transform: translate(0px, 42px);
+    text-align: center;
+}
 .containerBox .box {
     position: relative;
     height: 400px;
@@ -101,3 +108,4 @@
 .fa-react{
     color:  #61dafb !important;
 }
+

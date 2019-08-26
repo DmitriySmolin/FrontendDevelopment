@@ -23,8 +23,8 @@ h2{
     border-radius: 10px;
 }
 
-.fa, .fas{
-	color:black;
+.information i,.education i{
+	color:black !important;
 }
 
 

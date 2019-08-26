@@ -4,7 +4,8 @@ class Services extends Component {
     render() {
         return (
         	<section id="services">
-            <div className="services">
+            <div id="Услуги" className="services">
+            	<h2>Услуги</h2>
 				<div className="row">
 					<Icons icon={iconObj[0].icon} title={iconObj[0].title} description={iconObj[0].description}/>
 					<Icons icon={iconObj[1].icon} title={iconObj[1].title} description={iconObj[1].description}/>

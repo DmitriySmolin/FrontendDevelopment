@@ -148,6 +148,14 @@ ion-icon {
 
 }
 
+@media (min-width: 578px) {
+
+    .myEmail,
+    .myTel {
+        margin: 30px 10px;
+    }
+}
+
 @media (min-width: 615px) and (max-width: 664px) {
 
     .myEmail,
@@ -172,7 +180,7 @@ ion-icon {
         transform: translateX(-30px);
     }
 
-    ion-icon{
+    ion-icon {
         font-size: 27px;
     }
 

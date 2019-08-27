@@ -9,17 +9,18 @@ import './Header.css';
     	width: '100%',
     	display: 'flex',
     	alignItems: 'center',
-    	textAlign: 'center'
+    	textAlign: 'center',
 	}
 
 class Header extends Component {
 
 	render(){
 		return(
-			       <header  id="home" className="container-fluent">
+			    <header  id="home" className="container-fluent">
                 <div id="Главная"className="row">
                     <div style={myStyles}>
                         <div className="col-12 mx-auto">
+                         <span className="avatar">{this.props.children}</span>
                             <h1 className="text1">{this.props.title}</h1>
                             <p className="text2">Frontend developer</p>
                             <div><a className="text3" href="#about">{this.props.button}</a></div>

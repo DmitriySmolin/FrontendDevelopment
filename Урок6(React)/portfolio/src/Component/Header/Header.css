@@ -22,6 +22,8 @@ header a {
     text-transform: uppercase;
 }
 
+
+
 .overlay {
     position: absolute;
     width: 100%;
@@ -53,6 +55,15 @@ header a {
     height: 10px;
 }
 
+.avatar img {
+    width: 250px;
+    border-radius: 15%;
+    box-shadow: 0px 0px 13px;
+}
+
+.avatar {
+    color: #000;
+}
 
 @keyframes text22 {
     0% {
@@ -77,10 +88,31 @@ header a {
     }
 
     70% {
+        display: none;
         letter-spacing: 3px;
         margin-bottom: -40px;
     }
 
+}
+
+.avatar img {
+    animation-name: fade;
+    animation-duration: 10s;
+    
+}
+
+@keyframes fade {
+    0% {
+        opacity: 0
+    }
+
+    30% {
+        opacity: 0;
+    }
+
+    70% {
+        opacity: 1;
+    }
 }
 
 .downArrow {
@@ -91,9 +123,9 @@ header a {
     cursor: pointer;
     color: #fff;
     margin-bottom: 188px;
-    padding: 1.25rem 2.5rem;
+    padding: 1.25rem 0.5rem;
     box-shadow: none;
-    background-color:rgb(29, 128, 159);
+    background-color: rgb(29, 128, 159);
 }
 
 .downArrow i:hover {
@@ -104,3 +136,16 @@ header a {
 .fas {
     color: white !important;
 }
+
+@media (min-width: 320px) and (max-width: 999px) {
+    .text1 {
+        font-size:28px;
+    }
+    .downArrow {
+    margin-bottom: 155px;
+}
+
+}
+
+
+

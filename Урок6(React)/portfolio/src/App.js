@@ -7,6 +7,7 @@ import Services from './Component/Services/Services'
 import Portfolio from './Component/Portfolio/Portfolio';
 import Contact from './Component/Contact/Contact';
 import Footer from './Component/Footer/Footer';
+import AvatarAPI from './Component/AvatarAPI/AvatarAPI';
 class App extends Component {
 
 	render(){
@@ -16,7 +17,9 @@ class App extends Component {
 			 <div className="row">
 			 <div className="col-12">
 				<Navigation LogoTitle="Портфолио"/>
-				<Header title="Дмитрий Смолин" button="Узнать больше"/>
+				<Header title="Дмитрий Смолин" button="Узнать больше">
+				<AvatarAPI/>
+				</Header>
 				<About/>
 				<Services/>
 				<Portfolio/>

@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/FrontendDevelopment/tree/gh-pages/%D0%A3%D1%80%D0%BE%D0%BA6(React)/portfolio/static/css/main.52902e38.chunk.css",
-    "main.js": "/FrontendDevelopment/tree/gh-pages/%D0%A3%D1%80%D0%BE%D0%BA6(React)/portfolio/static/js/main.b99854a2.chunk.js",
-    "main.js.map": "/FrontendDevelopment/tree/gh-pages/%D0%A3%D1%80%D0%BE%D0%BA6(React)/portfolio/static/js/main.b99854a2.chunk.js.map",
-    "runtime~main.js": "/FrontendDevelopment/tree/gh-pages/%D0%A3%D1%80%D0%BE%D0%BA6(React)/portfolio/static/js/runtime~main.d5c12568.js",
-    "runtime~main.js.map": "/FrontendDevelopment/tree/gh-pages/%D0%A3%D1%80%D0%BE%D0%BA6(React)/portfolio/static/js/runtime~main.d5c12568.js.map",
-    "static/js/2.51678b07.chunk.js": "/FrontendDevelopment/tree/gh-pages/%D0%A3%D1%80%D0%BE%D0%BA6(React)/portfolio/static/js/2.51678b07.chunk.js",
-    "static/js/2.51678b07.chunk.js.map": "/FrontendDevelopment/tree/gh-pages/%D0%A3%D1%80%D0%BE%D0%BA6(React)/portfolio/static/js/2.51678b07.chunk.js.map",
-    "index.html": "/FrontendDevelopment/tree/gh-pages/%D0%A3%D1%80%D0%BE%D0%BA6(React)/portfolio/index.html",
-    "precache-manifest.f2f7d702fdefc5d5944f9e3da3c9ad85.js": "/FrontendDevelopment/tree/gh-pages/%D0%A3%D1%80%D0%BE%D0%BA6(React)/portfolio/precache-manifest.f2f7d702fdefc5d5944f9e3da3c9ad85.js",
-    "service-worker.js": "/FrontendDevelopment/tree/gh-pages/%D0%A3%D1%80%D0%BE%D0%BA6(React)/portfolio/service-worker.js",
-    "static/css/main.52902e38.chunk.css.map": "/FrontendDevelopment/tree/gh-pages/%D0%A3%D1%80%D0%BE%D0%BA6(React)/portfolio/static/css/main.52902e38.chunk.css.map"
+    "main.css": "/FrontendDevelopment/Урок6(React)/portfolio/static/css/main.52902e38.chunk.css",
+    "main.js": "/FrontendDevelopment/Урок6(React)/portfolio/static/js/main.9077becb.chunk.js",
+    "main.js.map": "/FrontendDevelopment/Урок6(React)/portfolio/static/js/main.9077becb.chunk.js.map",
+    "runtime~main.js": "/FrontendDevelopment/Урок6(React)/portfolio/static/js/runtime~main.dfaa3eba.js",
+    "runtime~main.js.map": "/FrontendDevelopment/Урок6(React)/portfolio/static/js/runtime~main.dfaa3eba.js.map",
+    "static/js/2.51678b07.chunk.js": "/FrontendDevelopment/Урок6(React)/portfolio/static/js/2.51678b07.chunk.js",
+    "static/js/2.51678b07.chunk.js.map": "/FrontendDevelopment/Урок6(React)/portfolio/static/js/2.51678b07.chunk.js.map",
+    "index.html": "/FrontendDevelopment/Урок6(React)/portfolio/index.html",
+    "precache-manifest.1da015d0cfe7a2b88be735a443c9c71b.js": "/FrontendDevelopment/Урок6(React)/portfolio/precache-manifest.1da015d0cfe7a2b88be735a443c9c71b.js",
+    "service-worker.js": "/FrontendDevelopment/Урок6(React)/portfolio/service-worker.js",
+    "static/css/main.52902e38.chunk.css.map": "/FrontendDevelopment/Урок6(React)/portfolio/static/css/main.52902e38.chunk.css.map"
   }
 }

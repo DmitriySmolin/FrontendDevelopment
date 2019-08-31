@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/4.3.1/workbox-sw.js");
 
 importScripts(
-  "/FrontendDevelopment/tree/gh-pages/%D0%A3%D1%80%D0%BE%D0%BA6(React)/portfolio/precache-manifest.f2f7d702fdefc5d5944f9e3da3c9ad85.js"
+  "/FrontendDevelopment/Урок6(React)/portfolio/precache-manifest.1da015d0cfe7a2b88be735a443c9c71b.js"
 );
 
 self.addEventListener('message', (event) => {
@@ -33,7 +33,7 @@ workbox.core.clientsClaim();
 self.__precacheManifest = [].concat(self.__precacheManifest || []);
 workbox.precaching.precacheAndRoute(self.__precacheManifest, {});
 
-workbox.routing.registerNavigationRoute(workbox.precaching.getCacheKeyForURL("/FrontendDevelopment/tree/gh-pages/%D0%A3%D1%80%D0%BE%D0%BA6(React)/portfolio/index.html"), {
+workbox.routing.registerNavigationRoute(workbox.precaching.getCacheKeyForURL("/FrontendDevelopment/Урок6(React)/portfolio/index.html"), {
   
   blacklist: [/^\/_/,/\/[^\/?]+\.[^\/]+$/],
 });

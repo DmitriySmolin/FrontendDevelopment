@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/FrontendDevelopment/Урок6(React)/portfolio/static/css/main.52902e38.chunk.css",
-    "main.js": "/FrontendDevelopment/Урок6(React)/portfolio/static/js/main.9077becb.chunk.js",
-    "main.js.map": "/FrontendDevelopment/Урок6(React)/portfolio/static/js/main.9077becb.chunk.js.map",
-    "runtime~main.js": "/FrontendDevelopment/Урок6(React)/portfolio/static/js/runtime~main.dfaa3eba.js",
-    "runtime~main.js.map": "/FrontendDevelopment/Урок6(React)/portfolio/static/js/runtime~main.dfaa3eba.js.map",
-    "static/js/2.51678b07.chunk.js": "/FrontendDevelopment/Урок6(React)/portfolio/static/js/2.51678b07.chunk.js",
-    "static/js/2.51678b07.chunk.js.map": "/FrontendDevelopment/Урок6(React)/portfolio/static/js/2.51678b07.chunk.js.map",
-    "index.html": "/FrontendDevelopment/Урок6(React)/portfolio/index.html",
-    "precache-manifest.1da015d0cfe7a2b88be735a443c9c71b.js": "/FrontendDevelopment/Урок6(React)/portfolio/precache-manifest.1da015d0cfe7a2b88be735a443c9c71b.js",
-    "service-worker.js": "/FrontendDevelopment/Урок6(React)/portfolio/service-worker.js",
-    "static/css/main.52902e38.chunk.css.map": "/FrontendDevelopment/Урок6(React)/portfolio/static/css/main.52902e38.chunk.css.map"
+    "main.css": "/FrontendDevelopment/static/css/main.52902e38.chunk.css",
+    "main.js": "/FrontendDevelopment/static/js/main.b17a465f.chunk.js",
+    "main.js.map": "/FrontendDevelopment/static/js/main.b17a465f.chunk.js.map",
+    "runtime~main.js": "/FrontendDevelopment/static/js/runtime~main.4304ae6a.js",
+    "runtime~main.js.map": "/FrontendDevelopment/static/js/runtime~main.4304ae6a.js.map",
+    "static/js/2.51678b07.chunk.js": "/FrontendDevelopment/static/js/2.51678b07.chunk.js",
+    "static/js/2.51678b07.chunk.js.map": "/FrontendDevelopment/static/js/2.51678b07.chunk.js.map",
+    "index.html": "/FrontendDevelopment/index.html",
+    "precache-manifest.13199ca0a0b013b624fa2dd254f33a36.js": "/FrontendDevelopment/precache-manifest.13199ca0a0b013b624fa2dd254f33a36.js",
+    "service-worker.js": "/FrontendDevelopment/service-worker.js",
+    "static/css/main.52902e38.chunk.css.map": "/FrontendDevelopment/static/css/main.52902e38.chunk.css.map"
   }
 }

@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/FrontendDevelopment/static/css/main.2f15c3ee.chunk.css",
-    "main.js": "/FrontendDevelopment/static/js/main.349cb938.chunk.js",
-    "main.js.map": "/FrontendDevelopment/static/js/main.349cb938.chunk.js.map",
-    "runtime~main.js": "/FrontendDevelopment/static/js/runtime~main.4304ae6a.js",
-    "runtime~main.js.map": "/FrontendDevelopment/static/js/runtime~main.4304ae6a.js.map",
-    "static/js/2.51678b07.chunk.js": "/FrontendDevelopment/static/js/2.51678b07.chunk.js",
-    "static/js/2.51678b07.chunk.js.map": "/FrontendDevelopment/static/js/2.51678b07.chunk.js.map",
-    "index.html": "/FrontendDevelopment/index.html",
-    "precache-manifest.9d86decba573d1963c4394e516cf78ee.js": "/FrontendDevelopment/precache-manifest.9d86decba573d1963c4394e516cf78ee.js",
-    "service-worker.js": "/FrontendDevelopment/service-worker.js",
-    "static/css/main.2f15c3ee.chunk.css.map": "/FrontendDevelopment/static/css/main.2f15c3ee.chunk.css.map"
+    "main.css": "/DmitriySmolin.github.io/FrontendDevelopment/tree/gh-pages/static/css/main.2f15c3ee.chunk.css",
+    "main.js": "/DmitriySmolin.github.io/FrontendDevelopment/tree/gh-pages/static/js/main.d87a17ee.chunk.js",
+    "main.js.map": "/DmitriySmolin.github.io/FrontendDevelopment/tree/gh-pages/static/js/main.d87a17ee.chunk.js.map",
+    "runtime~main.js": "/DmitriySmolin.github.io/FrontendDevelopment/tree/gh-pages/static/js/runtime~main.16c95680.js",
+    "runtime~main.js.map": "/DmitriySmolin.github.io/FrontendDevelopment/tree/gh-pages/static/js/runtime~main.16c95680.js.map",
+    "static/js/2.51678b07.chunk.js": "/DmitriySmolin.github.io/FrontendDevelopment/tree/gh-pages/static/js/2.51678b07.chunk.js",
+    "static/js/2.51678b07.chunk.js.map": "/DmitriySmolin.github.io/FrontendDevelopment/tree/gh-pages/static/js/2.51678b07.chunk.js.map",
+    "index.html": "/DmitriySmolin.github.io/FrontendDevelopment/tree/gh-pages/index.html",
+    "precache-manifest.9e95efb627aabe6debbe1e5006b55f55.js": "/DmitriySmolin.github.io/FrontendDevelopment/tree/gh-pages/precache-manifest.9e95efb627aabe6debbe1e5006b55f55.js",
+    "service-worker.js": "/DmitriySmolin.github.io/FrontendDevelopment/tree/gh-pages/service-worker.js",
+    "static/css/main.2f15c3ee.chunk.css.map": "/DmitriySmolin.github.io/FrontendDevelopment/tree/gh-pages/static/css/main.2f15c3ee.chunk.css.map"
   }
 }

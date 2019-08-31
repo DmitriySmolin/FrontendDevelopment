@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/4.3.1/workbox-sw.js");
 
 importScripts(
-  "/FrontendDevelopment/precache-manifest.9d86decba573d1963c4394e516cf78ee.js"
+  "/DmitriySmolin.github.io/FrontendDevelopment/tree/gh-pages/precache-manifest.9e95efb627aabe6debbe1e5006b55f55.js"
 );
 
 self.addEventListener('message', (event) => {
@@ -33,7 +33,7 @@ workbox.core.clientsClaim();
 self.__precacheManifest = [].concat(self.__precacheManifest || []);
 workbox.precaching.precacheAndRoute(self.__precacheManifest, {});
 
-workbox.routing.registerNavigationRoute(workbox.precaching.getCacheKeyForURL("/FrontendDevelopment/index.html"), {
+workbox.routing.registerNavigationRoute(workbox.precaching.getCacheKeyForURL("/DmitriySmolin.github.io/FrontendDevelopment/tree/gh-pages/index.html"), {
   
   blacklist: [/^\/_/,/\/[^\/?]+\.[^\/]+$/],
 });

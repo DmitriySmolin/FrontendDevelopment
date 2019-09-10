@@ -1,5 +1,5 @@
 .backgroundContact {
-    background-color: black;
+    background-color: #1d809f;
     padding-bottom: 100px;
 }
 
@@ -18,7 +18,7 @@
 }
 
 .emailButton {
-    background-color: #000000;
+    background-color: #1d809f;
     border: 1px solid white;
     color: white;
     font-size: 2em;

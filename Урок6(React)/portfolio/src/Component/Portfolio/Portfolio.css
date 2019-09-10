@@ -1,18 +1,20 @@
-.backgroundProjects{
+.backgroundProjects {
     background-color: rgba(0, 0, 0, .1);
 }
+
 .containerBox {
     display: flex;
     justify-content: center;
 }
 
-#projects h2{
+#projects h2 {
     font-size: 40px;
-    color: #000;
     margin-top: 0;
     transform: translate(0px, 42px);
     text-align: center;
+    color: #000;
 }
+
 .containerBox .box {
     position: relative;
     height: 400px;
@@ -42,7 +44,7 @@
     transform: translateY(40px);
 }
 
-.box .content i{
+.box .content i {
     position: absolute;
     top: -60px;
     right: 20px;
@@ -57,12 +59,11 @@
     color: rgba(55, 255, 60, 0.3);
 }
 
-.box .content h3{
-    margin: 0 0 10px;;
+.box .content h3 {
+    margin: 0 0 10px;
     padding: 0;
     font-weight: 700;
     color: wheat;
-
 }
 
 .box .content p {
@@ -72,7 +73,7 @@
     font-size: 16px;
 }
 
-.box .content a{
+.box .content a {
     position: relative;
     margin: 20px 0 0;
     padding: 10px 20px;
@@ -86,26 +87,25 @@
     visibility: hidden;
 }
 
-.box:hover .content a{
+.box:hover .content a {
     transform: translateY(0);
     opacity: 1;
     visibility: visible;
 }
 
-.box .content a:hover{
+.box .content a:hover {
     color: #000;
     background: #fff;
 }
 
-.fa-js{
-   color: orange !important ;
+.fa-js {
+    color: orange !important;
 }
 
-.fa-bootstrap{
-    color:  #563d7c !important;
+.fa-bootstrap {
+    color: #563d7c !important;
 }
 
-.fa-react{
-    color:  #61dafb !important;
+.fa-react {
+    color: #61dafb !important;
 }
-

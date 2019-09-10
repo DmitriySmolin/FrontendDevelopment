@@ -73,8 +73,8 @@
 }
 
 
-@media (min-width: 559px){
+@media (min-width: 559px) {
     #services .row {
-        flex-wrap:unset;
+        flex-wrap: unset;
     }
 }

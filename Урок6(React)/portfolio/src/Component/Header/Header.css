@@ -13,7 +13,6 @@ header p {
 header a {
     box-shadow: 0 3px 3px 0 rgba(0, 0, 0, .1);
     font-weight: 700;
-    background-color: #212529;
     color: #fff;
     padding: 1.5rem 2.5rem;
     text-decoration: none;
@@ -22,7 +21,14 @@ header a {
     text-transform: uppercase;
 }
 
-
+.header-content {
+    background-color: #1d809f;
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    text-align: center;
+}
 
 .overlay {
     position: absolute;
@@ -35,13 +41,14 @@ header a {
     background-size: 80px 140px;
 }
 
-
 .text1 {
     margin-bottom: 20px;
     position: relative;
     animation: text 5s 1;
-    color: white;
     background-color: rgb(29, 128, 159);
+    font-weight: 700;
+    color: #fff;
+    font-size: 1.75rem;
 }
 
 .text2 {
@@ -53,6 +60,7 @@ header a {
     margin: 0;
     padding-top: 0;
     height: 10px;
+    background-color: #000;
 }
 
 .avatar img {
@@ -98,7 +106,7 @@ header a {
 .avatar img {
     animation-name: fade;
     animation-duration: 10s;
-    
+
 }
 
 @keyframes fade {
@@ -125,7 +133,6 @@ header a {
     margin-bottom: 188px;
     padding: 1.25rem 0.5rem;
     box-shadow: none;
-    background-color: rgb(29, 128, 159);
 }
 
 .downArrow i:hover {
@@ -138,14 +145,42 @@ header a {
 }
 
 @media (min-width: 320px) and (max-width: 999px) {
-    .text1 {
-        font-size:28px;
+
+    .text1,
+    .text2 {
+        font-size: 28px;
     }
+
+    .text3 {
+        margin-bottom: 46px;
+    }
+
     .downArrow {
-    margin-bottom: 155px;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        position: absolute;
+        cursor: pointer;
+        color: #fff;
+        padding: 1.25rem 0.5rem;
+        box-shadow: none;
+        margin-bottom: 0;
+    }
 }
 
+@media (min-width: 568px) and (max-width: 813px) {
+    .header-content {
+        height: 180vh;
+    }
 }
 
+@media (min-width: 768px) {
+    .header-content {
+        height: 165vh;
+    }
+}
 
-
+@media (min-width: 1024px) {
+    .header-content {
+        height: 110vh;
+    }
+}

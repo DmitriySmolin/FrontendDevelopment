@@ -1,7 +1,11 @@
-import React, { Component } from "react";
+import React from "react";
 // import './App.css';
 import "./Navigation.css";
-class Navigation extends Component {
+import NavPanel from "./NavPanel";
+
+const sections = ["Главная", "Обо мне", "Услуги", "Портфолио", "Контакты"];
+
+class Navigation extends React.PureComponent {
   openSlideMenu = () => {
     document.getElementById("side-menu").style.width = "250px";
   };
@@ -11,32 +15,24 @@ class Navigation extends Component {
   };
 
   render() {
-    const sections = ["Главная", "Обо мне", "Услуги", "Портфолио", "Контакты"];
-    const navLinks = sections.map(section => {
-      return (
-        <li>
-          <a href={"#" + section}>{section}</a>
-        </li>
-      );
-    });
     return (
       <nav className="navbar">
         <span className="open-slide">
-          <button onClick={this.openSlideMenu}>
-            <svg width="30" height="30">
-              <path d="M0,5 30,5" stroke="#FFF" strokeWidth="5" />
-              <path d="M0,14 30,14" stroke="#FFF" strokeWidth="5" />
-              <path d="M0,23 30,23" stroke="#FFF" strokeWidth="5" />
-            </svg>
-          </button>
+          <button onClick={this.openSlideMenu}>&#9776;</button>
           {this.props.children}
         </span>
-        <ul className="nav-links">{navLinks}</ul>
+        <ul className="nav-links">
+          {sections.map((sections, index) => (
+            <NavPanel key={index} navLinks={sections} />
+          ))}
+        </ul>
         <div id="side-menu" className="side-nav" onClick={this.closeSlideMenu}>
-          <a href="#" className="btn-close">
+          <a href="#btn" className="btn-close">
             &times;
           </a>
-          {navLinks}
+          {sections.map((sections, index) => (
+            <NavPanel key={index} navLinks={sections} />
+          ))}
         </div>
       </nav>
     );

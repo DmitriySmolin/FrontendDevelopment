@@ -1,6 +1,6 @@
-import React, { Component } from "react";
+import React from "react";
 import "./Services.css";
-class Services extends Component {
+class Services extends React.PureComponent {
   render() {
     return (
       <section id="services">
@@ -58,7 +58,7 @@ const iconObj = [
   }
 ];
 
-class Icons extends Component {
+class Icons extends React.PureComponent {
   render() {
     return (
       <div>

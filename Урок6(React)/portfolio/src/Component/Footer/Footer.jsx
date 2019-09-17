@@ -1,10 +1,10 @@
-import React, { Component } from "react";
+import React from "react";
 
 const styleFooter = {
   backgroundColor: "#1d809f",
   color: "#fff"
 };
-class Footer extends Component {
+class Footer extends React.PureComponent {
   render() {
     return (
       <footer style={styleFooter} className="page-footer font-middle black">

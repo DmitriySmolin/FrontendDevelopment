@@ -1,6 +1,6 @@
-import React, { Component } from "react";
+import React from "react";
 
-class Project extends Component {
+class Project extends React.PureComponent {
   render() {
     const { title, description, icon, link } = this.props;
     return (
@@ -11,9 +11,7 @@ class Project extends Component {
               <i className={icon} />
               <h3 className="titleProject">{title}</h3>
               <p>{description}</p>
-              <a href={link} target="_blank">
-                Посмотреть..
-              </a>
+              <a href={link}>Посмотреть..</a>
             </div>
           </div>
         </div>

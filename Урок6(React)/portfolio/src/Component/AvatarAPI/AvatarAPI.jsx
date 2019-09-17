@@ -1,6 +1,6 @@
-import React, { Component } from "react";
+import React from "react";
 
-class AvatarAPI extends Component {
+class AvatarAPI extends React.PureComponent {
   constructor(props) {
     super(props);
     this.state = {
@@ -10,11 +10,10 @@ class AvatarAPI extends Component {
   }
   componentDidMount() {
     fetch("https://i.ibb.co/XLQ6hVT/15-Kh-Z0wky-RA.jpg")
-      .then(res => res.json())
-      .then(json => {
+      .then(res => res.blob())
+      .then(res => {
         this.setState({
-          isLoaded: true,
-          url: json
+          isLoaded: true
         });
       });
   }

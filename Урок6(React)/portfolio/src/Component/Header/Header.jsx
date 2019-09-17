@@ -1,8 +1,8 @@
-import React, { Component } from "react";
+import React from "react";
 // import Background from '../../img/bg-masthead.jpg';
 import "./Header.css";
 
-class Header extends Component {
+class Header extends React.PureComponent {
   render() {
     return (
       <header id="home" className="container-fluent">

@@ -1,8 +1,8 @@
-import React, { Component } from "react";
+import React from "react";
 const TContext = React.createContext();
 const TConsumer = TContext.Consumer;
 
-class TProvider extends Component {
+class TProvider extends React.PureComponent {
   toggleTheme = evt => {
     this.setState({ theme: evt.target.checked ? "night" : "day" });
   };
@@ -21,7 +21,7 @@ class TProvider extends Component {
   }
 }
 
-class Slider extends Component {
+class Slider extends React.PureComponent {
   render() {
     return (
       <label className="switch">

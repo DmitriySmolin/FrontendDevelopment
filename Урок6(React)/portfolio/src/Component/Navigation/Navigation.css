@@ -51,6 +51,11 @@ nav {
     padding-left: 20px;
 }
 
+input[type="checkbox"],
+input[type="radio"] {
+    margin: 11px;
+}
+
 .logo {
     font-size: 30px;
     color: #fff;
@@ -102,14 +107,13 @@ ul {
     transition: all .5s ease-out;
     padding: 5px;
     cursor: pointer;
+    color: #fff;
+    font-size: 32px;
 }
 
-.navbar button:hover {
-    background-color: #1D81F5;
-    border-radius: 7px;
+.navbar button:focus {
+    outline: none;
 }
-
-
 
 .nav-link {
     color: gray;

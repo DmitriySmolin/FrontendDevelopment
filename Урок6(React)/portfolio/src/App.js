@@ -1,4 +1,4 @@
-import React, { Component } from "react";
+import React from "react";
 import "./App.css";
 import Navigation from "./Component/Navigation/Navigation.jsx";
 import Header from "./Component/Header/Header.jsx";
@@ -14,7 +14,7 @@ import {
   Slider
 } from "./Component/SwitchTheme/SwitchTheme";
 
-class App extends Component {
+class App extends React.PureComponent {
   render() {
     return (
       <TProvider>

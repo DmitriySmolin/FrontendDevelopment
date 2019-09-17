@@ -1,7 +1,7 @@
-import React, { Component } from "react";
+import React from "react";
 import "./Contact.css";
 
-class Contact extends Component {
+class Contact extends React.PureComponent {
   render() {
     return (
       <section id="Контакты" className="contact">
@@ -27,7 +27,6 @@ class Contact extends Component {
                 <a
                   className="btn btn-outline btn-xl emailButton"
                   href="https://github.com/DmitriySmolin"
-                  target="_blank"
                 >
                   Dmitry Smolin
                 </a>

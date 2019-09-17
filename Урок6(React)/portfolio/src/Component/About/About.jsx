@@ -1,7 +1,7 @@
-import React, { Component } from "react";
+import React from "react";
 import "./About.css";
 
-class About extends Component {
+class About extends React.PureComponent {
   render() {
     return (
       <section id="Обо мне" className="about">
